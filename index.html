@@ -1,1 +1,15 @@
-Hello World
+<html>
+    <head>
+        <title>KOICA Timor-Leste Hospital Assessment</title>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function() {
+                $.getJSON('./json/category.json', function(jd) {
+                    console.log(jd);
+                });
+            });
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
