@@ -5,7 +5,7 @@
         <script>
             $(document).ready(function() {
                 $.getJSON('./json/category.json', function(jd) {
-                    console.log(jd);
+                    console.log($.parseJSON(jd));
                 });
 
                 $.getJSON('./json/hospitalData.json', function(jd) {
