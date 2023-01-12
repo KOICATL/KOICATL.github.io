@@ -1,0 +1,95 @@
+{
+    "genInfo": {
+      "Date": "2023-10-01T00:00:00.000Z",
+      "IntervieweeName": "Angela M. Marsella Terose",
+      "IntervieweePosition": "Administrator",
+      "FailityName": "Hospital Referral Oecusse",
+      "Address": "St.Rosa Oecusse, RAEOA",
+      "StartYear": "2007",
+      "Type": "Inpatients and Outpatients",
+      "OpDays": "Everyday",
+      "OpHours": "24 hours",
+      "ReferralFacility": "National Hospital of Guido Valadares",
+      "TravelTimeToReferral": "45 minutes"
+    },
+    "Service": {
+      "MNCH": "Yes",
+      "Labor": "Yes",
+      "PostpartumCare": true,
+      "Testing": {
+        "Tuberculousis": true,
+        "HIV": true,
+        "STI": true,
+        "Malaria": true,
+        "BasicEye": true,
+        "MentalHealth": true
+      },
+      "Diagnosis": {
+        "Haematology": true,
+        "Microscopy": true,
+        "ClinicalChemistry": false,
+        "Ultrasound": true,
+        "Xray": true,
+        "MRI": false,
+        "CT": false
+      },
+      "BloodAnalysis": {
+        "Hematology": true,
+        "SedimentationRate": true,
+        "BloodSugar": true,
+        "UreaCreatine": true,
+        "Cholesterol": true,
+        "Billirubin": true,
+        "SGOT": true,
+        "SGPT": true,
+        "GGT": true,
+        "PSA": true
+      },
+      "Beds": 40,
+      "EmergencyBeds": 4
+    },
+    "Staff": {
+      "MedicalDoctors": {
+        "Male": 3,
+        "Female": 2
+      },
+      "SpecialistClinicians": {
+        "Surgery": true,
+        "Otorhinolaryngology": false,
+        "Gastroenterology": false,
+        "Gynaecology": true,
+        "Neurology": false,
+        "Ophthalmology": false,
+        "Psychiatry": false,
+        "Rheumatology": false,
+        "SexualHealth": false,
+        "Nephrology": false
+      },
+      "EyeCare": {
+        "MedicalDoctors": 2,
+        "Nurse": 2
+      },
+      "PhysicianAssistants": 2,
+      "MidwiferyProfessionals": 13,
+      "NursingProfessionals": 34,
+      "Laboratory": {
+        "Technicians": 9,
+        "LabAssistants": 0
+      },
+      "Pharmacy": {
+        "Pharmacists": 5,
+        "Dispensers": 1
+      }
+    },
+    "Infrastructure": {
+      "PerimeterFence": "Good",
+      "WasteDisposal": "Good",
+      "RoofStructure": "Good",
+      "RoofSheeting": "Good",
+      "CeilingWork": "Good",
+      "WallCondition": "Good",
+      "FloorQuality": "Good",
+      "Windows": "Good",
+      "Doors": "Good"
+    }
+  }
